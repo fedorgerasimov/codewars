@@ -4,3 +4,4 @@ function paperwork (n, m) {
     return m * n;
 }
 console.log(paperwork(5,10));
+console.log(paperwork(1,20));
