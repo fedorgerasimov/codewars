@@ -14,9 +14,12 @@ function basicOp(operation, value1, value2) {
     }else if (operation == '*'){
       return value1 * value2;
     }else if(operation == '/') {
-    } return value1/value2;
+      return value1/value2; 
+    }else {
+        return 0;
+    }
 }
-console.log(basicOp('/', 4, 2));
+console.log(basicOp('/','', 2));
 
 // with SWITCH case
 function basicOp(operation, value1, value2) { 
