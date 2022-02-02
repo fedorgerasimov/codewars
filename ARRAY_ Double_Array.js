@@ -1,6 +1,7 @@
 /*Given an array of integers, return a new array with each value doubled.
 For example:
-[1, 2, 3] --> [2, 4, 6]*/
+[1, 2, 3] --> [2, 4, 6]
+*/
 function doubleArray(arr){
     let arrNew = [];
     for (let i = 0; i < arr.length; i++) {
@@ -8,7 +9,7 @@ function doubleArray(arr){
     }
     return arrNew;
 }
-console.log(maps([1, 2, 3]));
+console.log(doubleArray([1, 2, 3]));
 
 // another solution
 function maps(array){
@@ -21,3 +22,4 @@ function maps(array) {
     });
 }
 console.log(maps([4, 8, 16]));
+
