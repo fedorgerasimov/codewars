@@ -3,7 +3,7 @@
 Note: Empty arrays should return 0.
  */
 function find_average(array) {
-    if (!array.length) {   //If array is empty (!input.length)  return 0.
+    if (!array.length) {   //If array is empty (!input.length)  return 0/ array.length === 0
         return 0;
     }
     let amount = 0;
