@@ -11,6 +11,7 @@ function sum(arr, n) {
  }
 console.log(sum([1, 5, 6], 0));
 
+
 //recursive function
 function sum(arr, n) {
     if (n <= 0) {

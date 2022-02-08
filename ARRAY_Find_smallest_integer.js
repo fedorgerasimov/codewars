@@ -13,7 +13,7 @@ class SmallestIntegerFinder {
       return currentMin;
   }
 }
-// other solutions 
+
 class SmallestIntegerFinder {
     findSmallestInt(args) {
       return Math.min(...args); // expand array using Spread syntax(operator)

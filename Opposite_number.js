@@ -9,5 +9,6 @@ function opposite(number) {
     return number *= -1;
     // return -number;
 }
+
 console.log(opposite(-5));
 console.log(opposite(6));

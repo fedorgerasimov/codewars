@@ -7,8 +7,9 @@ However, he's been told that the castle is surrounded with a couple of powerful 
 Return True if yes, False otherwise :)
  */
 function hero(bullets, dragons){
-    return dragons * 2 <= bullets;
-    }
+  return dragons * 2 <= bullets;
+}
+
 
 const hero1 = (bullets, dragons) => dragons * 2 <= bullets;
     

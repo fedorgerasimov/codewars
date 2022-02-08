@@ -13,6 +13,7 @@ function arrayPlusArray(arr1, arr2) {
     return sum;
 }
 
+
 function arrayPlusArray(arr1, arr2) {
     let joinArr = [...arr1, ...arr2]; // arr1.concat(arr2)
     let sum = 0;
@@ -22,8 +23,10 @@ function arrayPlusArray(arr1, arr2) {
     return sum;
 }
 
+
 function arrayPlusArray(arr1, arr2) {
-    return arr1.concat(arr2).reduce((acc, cur) => acc + cur);  // acc = accumulate, cur = current element
+    return arr1.concat(arr2).reduce((acc, cur) => acc + cur);  
+                                 // acc = accumulate, cur = current element
 }
 
 function arrayPlusArray() {
@@ -38,5 +41,5 @@ function arrayPlusArray() {
 
 console.log(arrayPlusArray([1, 2, 3], [4, 5, 6])); //=> 21);
 console.log(arrayPlusArray([-1, -2, -3], [-4, -5, -6])); // => 21
-console.log(arrayPlusArray([0, 0, 0], [4, 5, 6])) // => 15
+console.log(arrayPlusArray([0, 0, 0], [4, 5, 6])); // => 15
 console.log(arrayPlusArray([100, 200, 300], [400, 500, 600])); // => 2100

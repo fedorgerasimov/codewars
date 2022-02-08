@@ -9,7 +9,7 @@ function reverseSeq(n) {
     }
     return array;
 }
-console.log(reverseSeq(5));
+
 
 const reverseSeq1 = n => {
     let array = [];
@@ -19,6 +19,7 @@ const reverseSeq1 = n => {
     return array;
 };
 
+
 const reverseSeq2 = n =>
     Array(n)    // let's start with an array length N
         .fill() // now fill it with empty elements
@@ -26,5 +27,6 @@ const reverseSeq2 = n =>
                                                 //Now push inside an array and number N minus current index
                                                 // and return that array
 
+console.log(reverseSeq(5));
 
 

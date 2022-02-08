@@ -16,9 +16,11 @@ Return the total figure the individual will
     return "\u00A3" +result;
  }
 
+
 function bonusTime(salary, bonus) {
     return `£${ bonus ? salary * 10 : salary }`;
 } 
+
 
 function bonusTime(salary, bonus) {
     if (bonus === true) {
@@ -27,6 +29,7 @@ function bonusTime(salary, bonus) {
     return `£${salary}`;
  }
 
+ 
 const bonusTime1 = (salary, bonus) => bonus ? `£${salary * 10}` : `£${salary}`;
 
 

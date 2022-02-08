@@ -11,8 +11,6 @@ function check(arr, value) {
     }
     return false;
 }
-console.log(check([66, 110, 101], 100));
-console.log(check(['t', 'e', 's', 't'], 'e'));
 
 
 function check(arr, value) {
@@ -22,7 +20,10 @@ function check(arr, value) {
         return false;
     }
 }
+
+
+const check1 = (arr,value)=>arr.includes(value);
+
 console.log(check([66, 110, 101], 101));
 console.log(check(['t', 'e', 's', 't'], 'e'));
 
-const check1 = (arr,value)=>arr.includes(value);

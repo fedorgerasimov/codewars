@@ -19,7 +19,7 @@ function countDown(n) {
     return array;
   }
 }
-console.log(countDown(5));
+
 
 function countDown(n) {
   let array = [];
@@ -28,13 +28,14 @@ function countDown(n) {
   }
   return array;
 }
-console.log(countDown(5));
+
 
 function countDown(n) {
   return Array(n).  // let's start with an array length N
           fill(0).  // now fill it with 0 elements
           map((element, index) => index +1); //map over this array: take current element and index
 }                                              //Now push inside an array and number N minus current index
-console.log(countDown(10));                  // and return that array
-                                          
+                                                // and return that array
+console.log(countDown(10));                  
+console.log(countDown(5));
 

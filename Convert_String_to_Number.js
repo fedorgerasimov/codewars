@@ -8,11 +8,11 @@ Examples
 "1405" --> 1405
 "-7" --> -7
 */
-var stringToNumber = function(str){
+let stringToNumber = function(str){
     return Number(str);
-  };
+};
 
-  var stringToNumber = function(str){
+let stringToNumber2 = function(str){
     return parseInt(str);
-  };
+};
   

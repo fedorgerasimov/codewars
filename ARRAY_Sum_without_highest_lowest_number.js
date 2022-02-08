@@ -29,6 +29,7 @@ function sumArray1(array) {
     return sum - currentMax - currentMin;
 }
 
+
 function sumArray2(array) {
     if (!array || array.length < 2) {
         return 0; }
@@ -45,6 +46,7 @@ function sumArray2(array) {
     return sum - currentMin -currentMax;
 }
 
+
 function sumArray3(array) {
     let sum = 0;
     if (!array || array.length < 2) {
@@ -54,6 +56,7 @@ function sumArray3(array) {
     }
     return sum - Math.min(...array) - Math.max(...array);
 }
+
 
 function sumArray4(array) {
     if (!array || array.length < 2) {

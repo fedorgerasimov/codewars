@@ -12,16 +12,18 @@ function invert(array){
     }
     return newArr;
 }
-console.log(invert([-1, -2, 3]));
+
 
 function invert(array){
     return array.map(function(number) { //callback function
         return number *-1;
     });
 }
-console.log(invert([-5, 2, 3]));
+
 
 function invert(array){
     return array.map(num => num *-1);
 }
+
 console.log(invert([10, -20, 3]));
+console.log(invert([-5, 2, 3]));

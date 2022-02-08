@@ -5,6 +5,7 @@ function noSpace(x){
     return x.replace(re, '');
 }
 
+
 function noSpace(x){
     return x.split(' ').join('');
 }

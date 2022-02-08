@@ -5,12 +5,13 @@ She added a special case to her function, but she made a mistake.
 Can you help her?
  */
 function greet(name){
-    if(name === "Johnny") { 
-      return "Hello, my love!";
-    }else {
+  if(name === "Johnny") { 
+    return "Hello, my love!";
+  }else {
     return "Hello, " + name + "!";
-    }
+  }
 }
+
 console.log(greet("Jim"));
 console.log(greet("Jane"));
 console.log(greet("Johnny"));

@@ -10,6 +10,7 @@ function countup(n) {
   }
   console.log(countup(5)); // => [1, 2, 3, 4, 5]
   
+  
   function countdown(n){
     if (n < 1) {
       return [];
@@ -24,6 +25,7 @@ function countup(n) {
   }
   console.log(countdown(5)); //=> [ 5, 4, 3, 2, 1 ]
 
+  
   //Use Recursion to Create a Range of Numbers
   function rangeOfNumbers(startNum, endNum) {
     if ( endNum - startNum === 0) {
@@ -35,6 +37,7 @@ function countup(n) {
     }
   }
   console.log(rangeOfNumbers(5, 10)); //=> [ 5, 6, 7, 8, 9, 10 ]
+  
   
   function rangeOfNumbers(startNum, endNum) {
     return startNum === endNum

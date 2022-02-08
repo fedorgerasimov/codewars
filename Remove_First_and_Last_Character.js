@@ -7,7 +7,11 @@ function removeChar(str){
     return str.substring(1, str.length-1);
 }
 
-//return str.slice(1, str.length - 1); one more solutions
+
+function removeChar(str){
+    return str.slice(1, str.length - 1);
+}
+
 
       
       

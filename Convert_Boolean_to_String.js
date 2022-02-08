@@ -9,12 +9,15 @@ function booleanToString(b){
     return `${false}`;
 }
 
+
 function booleanToString(b){
     return b.toString();
 }
 
+
 function booleanToString(b){
     return b ? 'true' : 'false';
 }
+
 
 const booleanToString1 = b => (b === true) ? 'true' : 'false';

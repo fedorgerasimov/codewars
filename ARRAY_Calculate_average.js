@@ -14,5 +14,4 @@ function find_average(array) {
         }
     return sum / amount;
 }
-console.log(find_average([1,2,3,4])); //=> 2.5
-console.log(find_average([]));  //=> 0   
+ 

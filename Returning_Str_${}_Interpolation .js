@@ -4,10 +4,12 @@ Make a function that will return a greeting statement that uses an input;
 [Make sure you type the exact thing I wrote or the program may not execute properly]
  */
 function greet(name){
-    return "Hello, " + name + " how are you doing today?";
-  }
-console.log(greet("Jameson"));
+  return "Hello, " + name + " how are you doing today?";
+}
+
 
 function greet(name){
   return `Hello, ${name} how are you doing today?`; // Interpolation Интерполяция
 }
+
+console.log(greet("Jameson"));

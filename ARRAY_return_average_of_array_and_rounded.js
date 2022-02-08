@@ -14,15 +14,11 @@ function getAverage(marks){
    }
    return Math.floor((sumMark/totalMark)); 
 }
-let test1 =[9,14,3,19,9,7,13,17,15,16,3,16,11,10,13,10,10,17]; //=>11
-console.log(getAverage(test1));
 
 function getAverage(marks) {
     return Math.floor(marks.reduce((total, current) => total + current) / marks.length);
 }
-let test2 =[9,14,3,19,9,7,13,17,15,16,3,16,11,10,13,10,10,17]; //=>11
-console.log(getAverage(test2));  
-
+  
 
 function getAverage(marks){
     let totalSum = 0;
@@ -30,5 +26,9 @@ function getAverage(marks){
     return Math.floor(totalSum / marks.length);
 }
 
+let test1 =[9,14,3,19,9,7,13,17,15,16,3,16,11,10,13,10,10,17]; //=>11
+console.log(getAverage(test1));
+let test2 =[9,14,3,19,9,7,13,17,15,16,3,16,11,10,13,10,10,17]; //=>11
+console.log(getAverage(test2));
 let test3 =[9,14,3,19,9,7,13,17,15,16,3,16,11,10,13,10,10,17]; //=>11
 console.log(getAverage(test2));

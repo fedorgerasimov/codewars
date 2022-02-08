@@ -8,7 +8,6 @@ Note:
 Your points are not included in the array of your class's points. 
 For calculating the average point you may add your point to the given array!
  */
-
 function betterThanAverage(classPoints, yourPoints) {
     let accumulate = 0;
     //let amount = 0;
@@ -20,6 +19,7 @@ function betterThanAverage(classPoints, yourPoints) {
     average = accumulate/classPoints.length;  // average = accumulate/amount
     return yourPoints > average;
 }
+
 
 function betterThanAverage(classPoints, yourPoints) {
     return classPoints.reduce((acc, item) => acc + item, 0) / classPoints.length < yourPoints;

@@ -19,6 +19,7 @@ function bmi(weight, height) {
     return result;
 }
 
+
 function bmi(weight, height) {
     let bmi = weight/Math.pow(height, 2);
     switch(true) {

@@ -4,6 +4,7 @@ function numberToString(num) {
    return String(num);
  }
  let string = numberToString(6);
+ 
  console.log(typeof(string));
 
 

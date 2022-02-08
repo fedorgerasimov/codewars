@@ -17,15 +17,17 @@ function fakeBin(x){
     return arr.join('');
 }
 
+
 function fakeBin(x){
     return(x + "").replace(/[0-4]/g, '0').replace(/[5-9]/g,'1');  //String.prototype.replace() с RegExp /([0-4])|([5-9])/g
 }
+
 
 function fakeBin(x){
     return x.split('').map((element) => (element < 5 ? 0 : 1)).join('');  // (element < 5 ? 0 : 1) if element < 5 return(?) 0, 
 }                                                                       //otherwise return(:) 1;
 
+
 console.log(fakeBin('45385593107843568')); //=>01011110001100111
 console.log(fakeBin('366058562030849490134388085')); //=>'011011110000101010000011011
-
 console.log([12321312].map((Number)).join(''));

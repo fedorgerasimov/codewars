@@ -7,11 +7,12 @@ function solution(str){
         reverseStr += str[i];}
     return reverseStr;
 }
-console.log(solution("Reversing a String in JavaScript"));
 
 
 function reverseWords(str){  // swap(reverse) all characters in a string but not words
     let newStr = str.split('').reverse().join('');
     return newStr;
 }
+
+console.log(solution("Reversing a String in JavaScript"));
 console.log(reverseWords("The greatest victory is that which requires no battle")); 

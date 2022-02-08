@@ -19,7 +19,7 @@ function basicOp(operation, value1, value2) {
         return 0;
     }
 }
-console.log(basicOp('/','', 2));
+
 
 // with SWITCH case
 function basicOp(operation, value1, value2) { 
@@ -36,11 +36,13 @@ function basicOp(operation, value1, value2) {
             return 0;
     }
 }
-console.log(basicOp('/', 10, 5));
+
 
 // eval() - функция глобального объекта.
-function basicOp(value1, operation, value2)
-{
+function basicOp(value1, operation, value2) {
   return eval(value1 + operation + value2);
 }
+
 console.log(basicOp(2, "*", 25));
+console.log(basicOp('/','', 2));
+console.log(basicOp('/', 10, 5));
