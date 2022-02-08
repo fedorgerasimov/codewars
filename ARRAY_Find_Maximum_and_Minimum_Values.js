@@ -6,16 +6,11 @@ max([4,6,2,1,9,63,-134,566]) returns 566
 min([-52, 56, 30, 29, -54, 0, -110]) returns -110
 max([5]) returns 5
 min([42, 54, 65, 87, 0]) returns 0
-#Notes
 You may consider that there will not be any empty arrays/vectors.
 * */
-var min = function(list){
-    
-    return list[0];
+let min = function(list){
+    return Math.min(...list);
 }
-
-var max = function(list){
-
-    return list[0];
+let max = function(list){
+    return Math.max(...list);
 }
-
