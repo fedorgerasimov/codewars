@@ -6,7 +6,7 @@ Note: input will never be an empty string
  */
 function fakeBin(x){
     let arr = [];
-    x = x + ''; // chek that input will never be an empty string
+    x = x + ''; // check that input will never be an empty string
     for (let i = 0; i < x.length; i++) {
         if(x[i] < 5) {
             arr[i] = 0;
