@@ -8,18 +8,11 @@ For input [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15],
 you should return [10, -65].
 */
 function countPositivesSumNegatives(input) {
-    if (!input || !input.length) {  // If the input array is empty (!input.length) 
+    if (!input || !input.length) {  // If the input array is empty (!input.length)
         return [];                  //or null (!input), return an empty array.
     }
-    let positiveAmount = 0;
-    let negativeSum = 0;
-    for (let i = 0; i < input.length; i++) {
-        if (input[i] > 0) {
-            positiveAmount ++;
-        }else {
-            negativeSum += input[i];
-        }
-    }
+    let positiveAmount = 0, negativeSum = 0;
+    input.forEach(item => item > 0 ? positiveAmount++ : negativeSum += item);
     return [positiveAmount, negativeSum];
 }
 
@@ -39,11 +32,18 @@ function countPositivesSumNegatives(input) {
 }
 
 function countPositivesSumNegatives(input) {
-    if (!input || !input.length) {  // If the input array is empty (!input.length)
+    if (!input || !input.length) {  // If the input array is empty (!input.length) 
         return [];                  //or null (!input), return an empty array.
     }
-    let positiveAmount = 0, negativeSum = 0;
-    input.forEach(item => item > 0 ? positiveAmount++ : negativeSum += item);
+    let positiveAmount = 0;
+    let negativeSum = 0;
+    for (let i = 0; i < input.length; i++) {
+        if (input[i] > 0) {
+            positiveAmount ++;
+        }else {
+            negativeSum += input[i];
+        }
+    }
     return [positiveAmount, negativeSum];
 }
 
