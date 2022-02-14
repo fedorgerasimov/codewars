@@ -10,16 +10,8 @@ function doubleArray(arr){
     return arrNew;
 }
 
+const maps = array => array.map(i => i * 2);
 
 function maps(array){
     return array.map(i => i*2);
 }
-
-
-function maps(array) {
-    return array.map(function(num) { // callback function
-        return num *2;
-    });
-}
-
-
